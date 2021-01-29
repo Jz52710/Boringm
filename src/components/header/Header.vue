@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <el-row :span="24" style="display: flex">
+    <el-row :span="24" style="display: flex;justify-content: space-between">
       <el-col :span="4" class="hidden-md-and-up images-box">
         <div class="grid-content bg-purple">
           <img :src="images" alt="">
@@ -18,7 +18,7 @@
       </el-col>
       <el-col :span="4" class="hidden-sm-and-down header-box">
         <div class="grid-content bg-purple" @click="$router.push({name:'login'})">{{ $t('user.login') }}/{{ $t('user.register') }}</div>
-        <div class="grid-content bg-purple" @click="changeLanguage()">{{$t('language.name')}}</div>
+<!--        <div class="grid-content bg-purple" @click="changeLanguage()">{{$t('language.name')}}</div>-->
       </el-col>
       <!--隐藏-->
       <el-col :span="4" class="hidden-md-and-up">
@@ -46,7 +46,7 @@
         <div class="show-text" @click="$router.push({name:'concerning'})">{{ $t('user.contactus') }}</div>
         <div class="show-text" @click="$router.push({name:'join'})">{{ $t('user.joinus') }}</div>
         <div class="show-text" @click="$router.push({name:'login'})">{{ $t('user.login') }}/{{ $t('user.register') }}</div>
-        <div class="show-text" @click="changeLanguage()">{{$t('language.name')}}</div>
+<!--        <div class="show-text" @click="changeLanguage()">{{$t('language.name')}}</div>-->
       </el-col>
       <!--       <div class="black-box"></div>-->
     </el-col>
@@ -179,6 +179,7 @@ export default {
   height: 80px;
   overflow: hidden;
   width: auto!important;
+  /*margin: 0;*/
 }
 .images-box{
   /*background: pink;*/

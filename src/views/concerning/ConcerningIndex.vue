@@ -27,7 +27,7 @@
               </el-col>
               <el-col :span="8" class="right-box">
                 <div class="icon-box">
-                  <i class="el-icon-location-outline"> 上海市杨浦区殷高东路719号9栋506-1</i>
+                  <i class="el-icon-location-outline"> 上海市杨浦区星汇广场9栋506-1</i>
                 <i class="el-icon-time"> 周一至周五上午10点-下午7点</i>
                 <i class="el-icon-mobile-phone"> 15221360031</i>
                 <i class="iconfont icon-gongzhonghao1"> 公众号: 媒趣BoringMedia</i>
@@ -56,7 +56,7 @@
               </el-row>
               <el-row :span="8" class="right-show">
                  <div class="icon-show">
-                  <i class="el-icon-location-outline"> 上海市杨浦区殷高东路719号9栋506-1</i>
+                  <i class="el-icon-location-outline"> 上海市杨浦区星汇广场9栋506-1</i>
                 <i class="el-icon-time"> 周一至周五上午10点-下午7点</i>
                 <i class="el-icon-mobile-phone"> 15221360031</i>
                 <i class="iconfont icon-gongzhonghao1"> 公众号: 媒趣BoringMedia</i>
