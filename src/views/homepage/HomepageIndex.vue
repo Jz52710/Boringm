@@ -121,6 +121,7 @@
 </template>
 
 <script>
+// 首页
 import Header from '@/components/header/Header.vue'
 import Swiper from "@/swipe/swiper.min.js";
 

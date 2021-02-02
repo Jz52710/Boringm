@@ -16,6 +16,7 @@
 </template>
 
 <script>
+// 苞米集
 import Header from '@/components/header/Header.vue'
 
 export default {
@@ -81,6 +82,6 @@ export default {
   opacity: .6;
   width: 100%;
   height: 100%;
-  z-index: 99;
+  z-index: 9;
 }
 </style>

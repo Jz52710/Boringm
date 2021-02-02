@@ -14,7 +14,7 @@
         <div class="grid-content bg-purple" @click="$router.push({name:'research'})">{{ $t('user.RD') }}</div>
         <div class="grid-content bg-purple" @click="$router.push({name:'trends'})">{{ $t('user.news') }}</div>
         <div class="grid-content bg-purple" @click="$router.push({name:'concerning'})">{{ $t('user.contactus') }}</div>
-        <div class="grid-content bg-purple" @click="$router.push({name:'join'})">{{ $t('user.joinus') }}</div>
+<!--        <div class="grid-content bg-purple" @click="$router.push({name:'join'})">{{ $t('user.joinus') }}</div>-->
       </el-col>
       <el-col :span="4" class="hidden-sm-and-down header-box">
         <div class="grid-content bg-purple" @click="$router.push({name:'login'})">{{ $t('user.login') }}/{{ $t('user.register') }}</div>
@@ -44,7 +44,7 @@
         <div class="show-text" @click="$router.push({name:'research'})">{{ $t('user.RD') }}</div>
         <div class="show-text" @click="$router.push({name:'trends'})">{{ $t('user.news') }}</div>
         <div class="show-text" @click="$router.push({name:'concerning'})">{{ $t('user.contactus') }}</div>
-        <div class="show-text" @click="$router.push({name:'join'})">{{ $t('user.joinus') }}</div>
+<!--        <div class="show-text" @click="$router.push({name:'join'})">{{ $t('user.joinus') }}</div>-->
         <div class="show-text" @click="$router.push({name:'login'})">{{ $t('user.login') }}/{{ $t('user.register') }}</div>
 <!--        <div class="show-text" @click="changeLanguage()">{{$t('language.name')}}</div>-->
       </el-col>

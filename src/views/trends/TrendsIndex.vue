@@ -66,6 +66,7 @@
 </template>
 
 <script>
+// 最新动态
 // import HelloWorld from './components/HelloWorld.vue'
 import Header from '@/components/header/Header.vue'
 

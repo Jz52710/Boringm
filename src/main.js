@@ -32,13 +32,19 @@ import "./assets/css/swiper.min.css";
 //字体
 import './assets/font/font.css'
 
-//地图
+//联系我们
 import BaiduMap from 'vue-baidu-map'
 Vue.use(BaiduMap, {
   ak: 'T7E4WHQ3ySIiQFnfWAGutOnmDwG5DCLp'
 })
 
 Vue.config.productionTip = false
+
+//axios
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+Vue.use(VueAxios, axios)
 
 new Vue({
     // Swiper,
